@@ -2,30 +2,37 @@
 <html>
 <style>
 #navbar {
-  position: fixed;
-  background-color: darkgreen;
-  width: 100%;
-  height: auto;
-}
-.nav {
-  display: flex;
-  justify-content: flex-end;
-  box-shadow: 0 5px 0 limegreen;
-}
-.nav-list {
-  display: flex;
-  list-style-type: none;
-}
+    position: fixed;
+    background-color: darkgreen;
+    width: 100%;
+    height: auto;
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 5px 0 limegreen;
+    
+  }
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    }
+    .navl {
+        padding-right: 30px;
+    }
 </style>
 
-<nav id="navbar" class="nav">
-  <ul class="nav-list">
-    <li><a href="#welcome-section">About</a>
-    </li>
-    <li> <a href="#projects">Projects</a>
-    </li>
-    <li> <a href="#contact">Contact</a>
-    </li>
-  </ul>
-</nav>
+    <head> <link rel="stylesheet" href="style.css"
+    </head>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li class=navl><a href="#welcome-section">About</a>
+        </li>
+        <li class=navl> <a href="#projects">Projects</a>
+        </li>
+        <li class=navl> <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
 </html>
