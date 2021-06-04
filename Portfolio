@@ -3,7 +3,7 @@
 <style>
 #navbar {
     position: fixed;
-    background-color: ;
+    background-color: black;
     top: 0px;
     width: 100%;
     height: auto;
@@ -22,8 +22,19 @@
     .navl {
         padding-right: 40px;
         font-size: 30px;
+        color: green;
     }
-
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: black;
+  background-color: white;
+  padding: 10px;
+}
 #welcome-section {
   display: flex;
   flex-direction: column;
@@ -35,7 +46,7 @@
 }
 </style>
 
-    <head> <link rel="stylesheet" href="style.css"
+     <head> <link rel="stylesheet" href="style.css"
     </head>
     <nav id="navbar" class="nav">
       <ul class="nav-list">
