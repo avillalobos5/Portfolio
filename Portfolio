@@ -44,9 +44,14 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
+#projects {
+  text-align: center;
+  background: lightblue;
+}
 </style>
 
-     <head> <link rel="stylesheet" href="style.css"
+  <head> <link rel="stylesheet" href="style.css"
     </head>
     <nav id="navbar" class="nav">
       <ul class="nav-list">
@@ -63,4 +68,10 @@ a:hover {
      <h1> Hi I am Angel Villalobos </h1>
      <p>Leaning Programming and Coding </p>
    </section>
+   
+   <section id="projects">
+     <h2> Projects </h2>
+     <div class="project-grid">
+       All projects here
+     </div>
 </html>
