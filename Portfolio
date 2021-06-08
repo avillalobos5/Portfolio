@@ -51,7 +51,7 @@ a:hover {
 }
 </style>
 
-  <head> <link rel="stylesheet" href="style.css"
+ <head> <link rel="stylesheet" href="style.css"
     </head>
     <nav id="navbar" class="nav">
       <ul class="nav-list">
@@ -72,6 +72,11 @@ a:hover {
    <section id="projects">
      <h2> Projects </h2>
      <div class="project-grid">
-       All projects here
+       <a 
+          href="https://codepen.io/Angel-Villalobos/full/zYNWBEd"
+          target="_blank"
+          class="project-tile">
+            Gus Mobile
+          </a>
      </div>
 </html>
