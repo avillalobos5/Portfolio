@@ -47,7 +47,17 @@ a:hover {
 
 #projects {
   text-align: center;
-  background: lightblue;
+  background: black;
+  color: green;
+}
+.project-grid {
+  display: grid;
+}
+#profile-link {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: grey;
 }
 </style>
 
@@ -78,5 +88,33 @@ a:hover {
           class="project-tile">
             Gus Mobile
           </a>
+       
+       <a 
+          href="https://codepen.io/Angel-Villalobos/full/PoWKgex"
+          target="_blank"
+          class="project-tile">
+            Survey Form
+          </a>
+       
+            <a 
+          href="https://codepen.io/Angel-Villalobos/full/poePqJd"
+          target="_blank"
+          class="project-tile">
+            Documentation 
+          </a>
+       
+                   <a 
+          href="https://codepen.io/Angel-Villalobos/full/PoWjMrM"
+          target="_blank"
+          class="project-tile">
+            Basic Tribute Page 
+          </a>
+            
+          </div>
+   </section>
+        
+      <div >
+        <a  id="profile-link" href="https://github.com/avillalobos5"
+           target="_blank"> GitHub </a>
      </div>
 </html>
