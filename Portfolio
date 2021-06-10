@@ -55,9 +55,32 @@ a:hover {
 }
 #profile-link {
   text-align: center;
-  width: 100%;
-  margin: 0 auto;
+  
+}
+.profiles {
+  text-align: center;
   background-color: grey;
+}
+.prodiv {
+  display: flex;
+  justify-content: center;
+}
+.github-link {
+  background-color: black;
+  padding: 1rem;
+  border: 4px solid darkgrey;
+}
+.codepen-link {
+  background-color: black;
+  padding: 1rem;
+  border: 4px solid darkgrey;
+}
+
+@media (max-width: 50rem) {
+  .nav{
+    justify-content:center;
+    box-shadow: 0 10px 0 darkblue;
+}
 }
 </style>
 
@@ -112,9 +135,14 @@ a:hover {
             
           </div>
    </section>
-        
-      <div >
-        <a  id="profile-link" href="https://github.com/avillalobos5"
+   <section class="profiles">
+     <h2 id="contact">Profiles/Contact</h2>
+      <div class="prodiv">
+        <a  id="profile-link" class= "github-link" href="https://github.com/avillalobos5"
            target="_blank"> GitHub </a>
+         <a  id="profile-link" class="codepen-link" href="https://codepen.io/Angel-Villalobos"
+           target="_blank"> Codepen </a>
      </div>
+   </section>
+
 </html>
