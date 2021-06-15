@@ -137,6 +137,7 @@ a:hover {
    </section>
    <section class="profiles">
      <h2 id="contact">Profiles/Contact</h2>
+      <p>Email: angel_villalobos5@yahoo.com</p>
       <div class="prodiv">
         <a  id="profile-link" class= "github-link" href="https://github.com/avillalobos5"
            target="_blank"> GitHub </a>
